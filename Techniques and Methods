@@ -1,0 +1,34 @@
+The first thing to note is the format and types of data your dataset contains.
+
+--Dates.
+  -It is wise to be consistent with the format used to indicate dates in our data.
+--Currency.
+  -To make sure that our data is consistent in different applications(SQL, Python, etc..) we can name our column to show that the data contained in currency and format
+    the values as numbers.
+--City Zip Codes.
+  -Merging and Splitting Columns.(When having mixed data)
+--Cellphone numbers.
+--Numbers in general.
+--Text/Strings.
+
+In most cases calculations/analysis is done on numerical values and visuailisation on data like location (Demographics),
+categorical data and numerical values of course.
+
+There are a multiple issues that you can come across when working with large datasets that contain all sorts of data types.
+--Duplicates
+--Spelling Erros
+--Date formats(Depending on the region you are in.)
+--Letter Cases(UPPER, LOWER, PROPER).
+--Unneccessary spaces and non-printing charaters between words or numbers.
+--Blank entries.
+--
+
+
+
+
+
+-Remove duplicate 
+- Edit name: use UPPER, Lower or Proper function
+- Use filter to look for spelling errors
+- Trim white space: TRIM function
+- Issue with numerical data: currency, dates
