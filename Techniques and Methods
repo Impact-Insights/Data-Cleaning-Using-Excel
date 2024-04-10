@@ -1,3 +1,9 @@
+First Thing First.
+-Create a backup copy of the original data in a separate workbook. This is to ensure that you can always go back if you have made changes you want to revert back to.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 The first thing to note is the format and types of data your dataset contains.
 
 --Dates.
